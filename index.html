@@ -389,7 +389,7 @@
             <li class="footer-item"> <a class="footer-header-tel link" href=" +380991111111"> +38 099 111 11 11</a></li>
         </ul>
         </div>
-        <div class="footer-right">
+    <div class="footer-right">
             <h2 class="title-footer-right">присоединяйтесь</h2>
             <ul class="command-social list footer-social-list">
                 <li class="footer-social-item">
@@ -431,19 +431,25 @@
             </ul>
         </div>
     </div>    
-</div>
 
-<div class="subscribe-footer">
-    <h2 class="subscribe-tittle">Подпишитесь на рассылку</h2>
-    <div class="subscribe-footer-block">
-        <form class="subscribe-form" name="e-mail">
+
+    <div class="subscribe-footer">
+        <h2 class="subscribe-tittle">Подпишитесь на рассылку</h2>
+        <div class="subscribe-footer-block">
+            <form class="subscribe-form" name="e-mail">
+            
+                <label class="subscribe-label" for="e-mail">
+                    <input class="subscribe-input" type="e-mail" name="e-mail" placeholder="E-mail">
+                </label>
+            
+            </form>
+            <button type="submit" class="subscribe-button">Подписаться
+                <svg class="subscribe-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg>
+            </button>
+        </div>
     </div>
-    <label class="subscribe-label" for="e-mail">
-        <input class="subscribe-input" type="e-mail" name="e-mail" placeholder="e-mail">
-    </label>
-    </div>
-        </form>
-    <button></button>
 </div>
 
 </footer>
@@ -499,8 +505,7 @@
                 placeholder="Введите текст"
             ></textarea>    
         </label>
-        <input type="checkbox" id="accept-policy" class="modal-form-checkbox visually-hidden"
-        />
+        <input type="checkbox" id="accept-policy" class="modal-form-checkbox visually-hidden"/>
         <label for="accept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#" class="modal-form-checkbox-label-one">Условия договора</a></label>
 
         <button type="submit" class="modal-form-button">Отправить</button>
