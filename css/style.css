@@ -616,8 +616,9 @@ body{
     color: var(--primary-title-color)
 }
 
+
 .subscribe-footer{
-    margin-right: 93px;
+    margin-left: 93px;
 }
 
 .subscribe-footer-block{
@@ -632,7 +633,7 @@ body{
     width: 358px;
     display: inline-block;
     padding: 15px 0 15px 15px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: inherit;
     color: var(--primary-title-color);
@@ -652,6 +653,7 @@ body{
     color: var(--primary-title-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-icon{
